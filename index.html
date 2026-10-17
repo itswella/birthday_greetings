@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <meta name="description" content="A little birthday surprise made with love for Adreign.">
+  <title>Happy Birthday, Adreign! ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="sparkle sparkle-one" aria-hidden="true">✧</div>
+  <div class="sparkle sparkle-two" aria-hidden="true">♡</div>
+  <div class="sparkle sparkle-three" aria-hidden="true">✦</div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Back to top">22 NA KA ATEH?</a>
+    <button id="musicToggle" class="music-toggle" type="button" aria-pressed="false">
+      <span id="musicIcon" aria-hidden="true">♫</span>
+      <span id="musicLabel">Tap to Playyy:></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <p class="eyebrow">A little surprise, made just for you</p>
+      <h1>Happy Birthday,<br><span>Adreign</span> ♡</h1>
+      <p class="hero-copy">shore jud nga birthday na?</p>
+
+      <div class="envelope-area">
+        <p class="tap-hint" id="envelopeHint">tuplokaa sa akong letter</p>
+        <button id="envelopeButton" class="envelope-button" type="button" aria-label="Open your birthday letter" aria-expanded="false">
+          <span class="envelope-shadow"></span>
+          <span class="envelope">
+            <span class="envelope-back"></span>
+            <span class="letter-peek">
+              <span class="letter-heart">♡</span>
+              <span class="letter-peek-text">For Adreign</span>
+            </span>
+            <span class="envelope-front"></span>
+            <span class="envelope-flap"></span>
+            <span class="envelope-seal">♡</span>
+          </span>
+        </button>
+      </div>
+
+      <article id="letterCard" class="letter-card" hidden>
+        <p class="letter-kicker">Hi</p>
+        <h2>Happy Birthday, Adreign!</h2>
+        <p>(⁠≧⁠▽⁠≦⁠)</p>
+        <p>Happy birthday, ate Adreign! HAHAHAHAHA well anyways first time nako mag create ug something like this and cram jud ni siya soooo ayaw ko e bash hehe :> </p>
+        <p>hayst should I thank your sister?iykyk hahaha i hope u still remember atong ga dula siyag roblox, she mentioned ur name and I was really curious ab it not until they inv me again sa katung inom ila ate lorelai and ddto tika na meet first haha. At first I was intimidated kay the way ka mo stare saako (scary kaayo) hahaha hayst ga story telling nako! well anyways;</p>
+        <p>I really admire you po ate adreign hehe, I like ur smile, ur dimples, ur beauty (I really find u attractive at first glance hayst na shy nako), and u for being u (⁠≧⁠▽⁠≦⁠)</p>
+        <p>My wish for you (ako na mag wish for u haha) is a year full of peace (thesis), good health(inom na tubig), exciting opportunities(mo graduate naka soon), and all the little things that make your heart happy. I hope you always believe in yourself coz ur capable of doing things.</p>
+        <p>yun lang po kasi na shyy nako hehehe....again HAPPY BIRTHDAY💗</p>
+        <p class="letter-signoff">from<span>♡</span></p>
+        <p class="letter-signature">(⁠≧⁠▽⁠≦⁠)</p>
+      </article>
+      <p class="scroll-note">scroll pa♡</p>
+    </section>
+
+    <section class="memories section-wrap" id="memories">
+      <p class="eyebrow">CUTEE LANG</p>
+      <h2>♡♡♡♡♡</h2>
+      <p class="section-intro">A few snapshots of the moments I want to keep.</p>
+
+      <div class="photo-grid">
+        <figure class="polaroid rotate-left">
+          <div class="photo-frame">
+            <img src="picture1.jpg" alt="A favorite photo of us" onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+            <div class="photo-placeholder" hidden><span>♡</span><small>Add your photo</small></div>
+          </div>
+          <figcaption>sooo cuteee</figcaption>
+        </figure>
+        <figure class="polaroid rotate-right">
+          <div class="photo-frame">
+            <img src="picture2.jpg" alt="A favorite memory together" onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+            <div class="photo-placeholder" hidden><span>✿</span><small>Add your photo</small></div>
+          </div>
+          <figcaption>:> </figcaption>
+        </figure>
+        <figure class="polaroid rotate-left-small">
+          <div class="photo-frame">
+            <img src="picture3.jpg" alt="Another special moment" onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+            <div class="photo-placeholder" hidden><span>♡</span><small>Add your photo</small></div>
+          </div>
+          <figcaption>hayst</figcaption>
+        </figure>
+      </div>
+      <p class="photo-tip">wala jud tay pics na tarong! but these pics looks cute man sad:> </p>
+    </section>
+
+<section class="cake-section section-wrap" id="cake">
+  <p class="eyebrow">make a birthday wish</p>
+  <h2>A little cake, just for you</h2>
+  <p class="section-intro">yey happy birthday to you!</p>
+
+  <div class="cake-stage" aria-label="Birthday cake with number 22 candles">
+
+    <!-- Number 22 candles -->
+    <div class="flames number-candles" id="flames">
+      <span class="number-candle">
+        <i class="flame"></i>
+        <span class="number">2</span>
+      </span>
+
+      <span class="number-candle">
+        <i class="flame"></i>
+        <span class="number">2</span>
+      </span>
+    </div>
+
+    <!-- Birthday cake -->
+    <div class="cake">
+      <div class="icing">
+        <span class="drip drip-one"></span>
+        <span class="drip drip-two"></span>
+        <span class="drip drip-three"></span>
+        <span class="drip drip-four"></span>
+      </div>
+
+      <div class="cake-decoration">♡　✿　♡</div>
+      <div class="cake-base"></div>
+    </div>
+
+    <div class="cake-plate"></div>
+  </div>
+
+  <button id="wishButton" class="primary-button" type="button">
+    Blow out your 22 candles!!
+  </button>
+
+  <p id="wishMessage" class="wish-message" aria-live="polite">
+   how can a person know everything at 18 but nothing at 22?? hahaha
+  </p>
+</section>
+
+    <section class="closing section-wrap">
+      <div class="closing-card">
+        <span class="closing-heart">♡</span>
+        <p class="eyebrow">NAA NI BAYAD BITAW</p>
+        <h2>INOM INOM INOM</h2>
+        <p>JK... I HOPE YOU'LL ENJOY THE REST OF YOUR BIRTHDAY!!</p>
+        <p class="closing-script"> >>>> </p>
+        <P>(⁠≧⁠▽⁠≦⁠) </P>
+        <div class="tiny-hearts" aria-hidden="true">♡　♡　♡</div>
+      </div>
+    </section>
+  </main>
+
+  
+ 
+
